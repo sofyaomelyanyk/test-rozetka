@@ -62,9 +62,15 @@
 }
 
 .list {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 90px;
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .list__item {
@@ -75,7 +81,7 @@
     content: "";
     position: absolute;
     display: block;
-    left: 24%;
+    left: 50%;
     bottom: -45px;
     transform: translate(-50%, -50%);
 
@@ -83,6 +89,10 @@
     height: 1px;
 
     background-color: #000000;
+
+    @media screen and (min-width: 768px) {
+      left: 24%;
+    }
   }
 }
 
@@ -90,7 +100,7 @@
   content: "";
   position: absolute;
   display: block;
-  left: 24%;
+  left: 50%;
   bottom: -50%;
   transform: translate(-50%, -50%);
 
