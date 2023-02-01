@@ -3,11 +3,12 @@
 }
 
 .text {
-  margin-bottom: 146px;
+  margin-bottom: 70px;
   max-width: 320px;
 
   @media screen and (min-width: 768px) {
     max-width: 680px;
+    margin-bottom: 146px;
   }
 
   @media screen and (min-width: 1200px) {
