@@ -18,7 +18,11 @@
 
 .image-2 {
   width: 100%;
-  margin-bottom: 183px;
+  margin-bottom: 100px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 183px;
+  }
 }
 
 .image-3 {
@@ -29,7 +33,11 @@
 
 .image-4 {
   width: 100%;
-  margin-bottom: 135px;
+  margin-bottom: 70px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 135px;
+  }
 }
 
 .text-margin {
@@ -118,4 +126,6 @@
 .description {
   font-size: 25px;
   font-weight: 400;
+
+  
 }

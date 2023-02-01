@@ -433,7 +433,12 @@ template {
 
 .image-2 {
   width: 100%;
-  margin-bottom: 183px;
+  margin-bottom: 100px;
+}
+@media screen and (min-width: 768px) {
+  .image-2 {
+    margin-bottom: 183px;
+  }
 }
 
 .image-3 {
@@ -444,7 +449,12 @@ template {
 
 .image-4 {
   width: 100%;
-  margin-bottom: 135px;
+  margin-bottom: 70px;
+}
+@media screen and (min-width: 768px) {
+  .image-4 {
+    margin-bottom: 135px;
+  }
 }
 
 .text-margin {
